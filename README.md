@@ -5,8 +5,8 @@
 A [String.prototype.trim](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim) polyfill for legacy browsers.
 
   * CDN via https://unpkg.com/@ungap/trim
-  * ESM via `import WeakSet from '@ungap/trim'`
-  * CJS via `const WeakSet = require('@ungap/trim')`
+  * ESM via `import trim from '@ungap/trim'`
+  * CJS via `const trim = require('@ungap/trim')`
 
 Compatible down to IE9, works well with ES5 shim upfront in IE8 (and maybe lower too).
 
